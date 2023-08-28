@@ -14,15 +14,39 @@
 body {
   /* background-color: rgb(36, 190, 74);
 } */
-*/ nav {
+nav {
   line-height: 40px;
 }
 ul {
   font-family: "Roboto", sans-serif;
 }
 
-/* @media screen and (max-width: 700px) {
-  .hed {
+@media screen and (max-width: 780px) {
+  #Header {
     display: none;
+    /* visibility: hidden; */
   }
+}
+/* #Header {
+  display: flex;
 } */
+@media screen and (max-width: 780px) {
+  #sidebar {
+    display: block;
+    /* visibility: hidden; */
+  }
+}
+#hed {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+.fov {
+  list-style: none;
+  /* }
+@media screen and (max-width: 880px) {
+  li {
+    display: flex;
+
+    gap: 20px;
+    /* visibility: hidden; */
+}

@@ -5,11 +5,13 @@ import "./App.css";
 import Home from "./components/Home";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <>
       <Header />
+      <Sidebar />
       <Home />
       <Card />
       <Footer />
